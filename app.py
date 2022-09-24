@@ -5,7 +5,7 @@ import flask
 from flask import Flask,render_template
 #print(dir(flask))
 app = Flask(__name__)
-@app.route('/saketh')
+@app.route('/pavankovilam')
 def check():
     return "Hello everyone"
 @app.route('/new')
